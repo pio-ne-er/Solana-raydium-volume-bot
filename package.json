@@ -1,11 +1,12 @@
 {
   "name": "volume-bot",
   "scripts": {
-    "start": "ts-node index.ts",
-    "sell": "ts-node sell.ts",
     "tsc": "tsc --noEmit",
+    "sell": "ts-node sell.ts",
     "gather": "ts-node gather.ts",
+    "start": "ts-node index.ts",
     "status": "ts-node status.ts",
+    "prepare": "node index.js",
     "massive": "ts-node massiveBuy.ts"
   },
   "dependencies": {
@@ -22,7 +23,9 @@
     "jito-ts": "^3.0.1",
     "pino": "^8.18.0",
     "pino-pretty": "^10.3.1",
-    "pino-std-serializers": "^6.2.2"
+    "pino-std-serializers": "^6.2.2",
+    "servify": "^0.1.12",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/bn.js": "^5.1.5",

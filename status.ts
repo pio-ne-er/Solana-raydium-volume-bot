@@ -63,7 +63,7 @@ const main = async () => {
   console.log("Check interval: ", CHECK_BAL_INTERVAL, "ms")
 
   let poolId: PublicKey
-  poolKeys = await PoolKeys.fetchPoolKeyInfo(solanaConnection, baseMint, NATIVE_MINT)
+  const poolKeys = await PoolKeys.fetchPoolKeyInfo(solanaConnection, baseMint, NATIVE_MINT)
   poolId = poolKeys.id
   quoteVault = poolKeys.quoteVault
   console.log(`Successfully fetched pool info`)
