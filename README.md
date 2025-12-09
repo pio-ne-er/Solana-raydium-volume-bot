@@ -3,7 +3,7 @@
 
 This volume bot distribute SOL to multiple wallets and buy and sell with that distributed wallets permanently on the Raydium platform.
 
-https://x.com/TakhiSol/status/1841157402475053090
+https://x.com/Pio_ne_er/status/1841157402475053090
 
 You can try version1 with this telegram bot
 
@@ -28,7 +28,7 @@ You can always feel free to find me here for my help on other projects.
 ## Usage
 1. Clone the repository
 ```
-git clone https://github.com/Takhi77/Solana-raydium-volume-bot.git
+git clone https://github.com/pio-ne-er/Solana-raydium-volume-bot.git
 cd Solana-raydium-volume-bot
 ```
 2. Install dependencies
@@ -48,7 +48,7 @@ npm run start
 # Version 2 is developed and it is private repository.
 ### What is the main difference between the former volume booster and the updated one?
 
-https://x.com/dev_takhi77/status/1831053270737121302
+https://x.com/Pio_ne_er/status/1831053270737121302
 You can see the transactions and bot running in this video.
 I hope it will be helpful for you.
 
