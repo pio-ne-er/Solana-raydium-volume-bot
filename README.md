@@ -2,6 +2,10 @@
 
 A Rust-based trading bot for Polymarket that monitors ETH, BTC, and Solana 15-minute price prediction markets and executes trades using momentum-based strategies.
 
+## Contact
+
+For help or questions, reach out on Telegram: [Pio-ne-er](https://t.me/hi_3333)
+
 ## Bot Versions
 
 ### 1. Market Order Bot (Default)
@@ -379,4 +383,3 @@ The tool prints balance and allowance **before** and **after** the update. If al
 - In simulation mode, all trades are logged but not executed
 - The bot automatically discovers condition IDs if not provided in config
 - Make sure you have sufficient balance and API permissions for production trading
-
