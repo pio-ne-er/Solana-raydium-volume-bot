@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+Cargo.lock
+config.json
+*.log
+history.toml
+.env

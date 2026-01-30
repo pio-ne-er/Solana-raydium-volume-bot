@@ -1,0 +1,71 @@
+[package]
+name = "polymarket-arbitrage-bot"
+version = "0.1.0"
+edition = "2021"
+default-run = "polymarket-arbitrage-bot"
+
+[[bin]]
+name = "test_predict_fun"
+path = "src/bin/test_predict_fun.rs"
+
+[[bin]]
+name = "test_sell"
+path = "src/bin/test_sell.rs"
+
+[[bin]]
+name = "test_redeem"
+path = "src/bin/test_redeem.rs"
+
+[[bin]]
+name = "test_allowance"
+path = "src/bin/test_allowance.rs"
+
+[[bin]]
+name = "test_limit_order"
+path = "src/bin/test_limit_order.rs"
+
+[[bin]]
+name = "test_merge"
+path = "src/bin/test_merge.rs"
+
+[[bin]]
+name = "main_dual_limit_045"
+path = "src/bin/main_dual_limit_045.rs"
+
+[[bin]]
+name = "main_dual_limit_1h"
+path = "src/bin/main_dual_limit_1h.rs"
+
+[[bin]]
+name = "polymarket-arbitrage-bot-limit"
+path = "src/bin/main_limit.rs"
+
+[[bin]]
+name = "price_monitor"
+path = "src/bin/main_price_monitor.rs"
+
+[[bin]]
+name = "backtest"
+path = "src/bin/backtest.rs"
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+tokio-tungstenite = { version = "0.21", features = ["native-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+env_logger = "0.11"
+log = "0.4"
+rust_decimal = "1.33"
+rust_decimal_macros = "1.33"
+hmac = "0.12"
+sha2 = "0.10"
+hex = "0.4"
+base64 = "0.21"
+polymarket-client-sdk = "0.3"
+alloy = { version = "1.3", features = ["full"] }
+alloy-contract = "1.3"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1.10"
